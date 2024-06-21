@@ -44,7 +44,7 @@ Some of my papers were published at international NLP conferences. See <a href='
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"> Preprint </div><img src='images/1_motivation_v4.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"> Preprint </div><img src='images/MIRAGE_homepage.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Model Internals-based Answer Attribution for Trustworthy Retrieval-Augmented Generation](https://arxiv.org/abs/2406.13663) <br> **Jirui Qi**\*, Gabriele Sarti\*, Raquel Fernández, Arianna Bisazza
