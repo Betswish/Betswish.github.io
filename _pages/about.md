@@ -35,13 +35,23 @@ Some of my papers were published at international NLP conferences. See <a href='
 
 
 # 🔥 News
-- 2024.06.21: New pre-print paper released! [Model Internals-based Answer Attribution for Trustworthy Retrieval-Augmented Generation](https://arxiv.org/abs/2406.13663)
+- 2024.06.21: New preprint paper released! [Model Internals-based Answer Attribution for Trustworthy Retrieval-Augmented Generation](https://arxiv.org/abs/2406.13663)
 - 2023.12.10: &nbsp; The <a href='https://arxiv.org/abs/2310.10378'> paper </a> was also selected for Outstanding Paper award in the Multilinguality and Linguistic Diversity track at EMNLP 2023!
 - 2023.12.06: &nbsp; We received Best Data Award for our <a href='https://arxiv.org/abs/2310.10378'> EMNLP paper </a> from <a href='https://genbench.org/workshop/'> The 1st GenBench Workshop </a>!
 - 2023.10.06: &nbsp; Paper accepted by EMNLP 2023! <a href='https://arxiv.org/abs/2310.10378'> Cross-Lingual Consistency of Factual Knowledge in Multilingual Language Models </a>
 - 2023.04.01: &nbsp; Ph.D. journey started at the University of Groningen, supervised by <a href='https://www.cs.rug.nl/~bisazza/'> Arianna Bisazza </a>  and <a href='https://staff.fnwi.uva.nl/r.fernandezrovira/'> Raquel Fernández </a>.
 
 # 📝 Publications 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"> Preprint </div><img src='images/1_motivation_v4.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Model Internals-based Answer Attribution for Trustworthy Retrieval-Augmented Generation](https://arxiv.org/abs/2406.13663) <br> **Jirui Qi***, Gabriele Sarti*, Raquel Fernández, Arianna Bisazza
+
+Ensuring the verifiability of model answers is a fundamental challenge for retrieval-augmented generation (RAG) in the question answering (QA) domain. Recently, self-citation prompting was proposed to make large language models (LLMs) generate citations to supporting documents along with their answers. However, self-citing LLMs often struggle to match the required format, refer to non-existent sources, and fail to faithfully reflect LLMs' context usage throughout the generation. In this work, we present MIRAGE --Model Internals-based RAG Explanations -- a plug-and-play approach using model internals for faithful answer attribution in RAG applications. MIRAGE detects context-sensitive answer tokens and pairs them with retrieved documents contributing to their prediction via saliency methods. We evaluate our proposed approach on a multilingual extractive QA dataset, finding high agreement with human answer attribution. On open-ended QA, MIRAGE achieves citation quality and efficiency comparable to self-citation while also allowing for a finer-grained control of attribution parameters. Our qualitative evaluation highlights the faithfulness of MIRAGE's attributions and underscores the promising application of model internals for RAG answer attribution.
+
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"> EMNLP 2023 </div><img src='images/916x820.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
