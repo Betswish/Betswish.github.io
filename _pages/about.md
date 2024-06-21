@@ -24,7 +24,7 @@ redirect_from:
 {% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio_semantic.json" %}
+{% assign url2 = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio_semantic.json" %}
 
 <span class='anchor' id='about-me'></span>
 
@@ -32,7 +32,7 @@ I started my Ph.D. in April 2023, at the Center for Language and Cognition (CLCG
 
 My research mainly focuses on low-resource conversational generation, the generalization of factual knowledge across languages, and prompt-based learning for classification. The ultimate goal for me is to achieve Artificial General Intelligence (AGI) someday in the future.
 
-Some of my papers were published at international NLP conferences. See <a href='https://scholar.google.com/citations?hl=en&user=bN9bPVUAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> or <a href='https://www.semanticscholar.org/author/Jirui-Qi/2112611646'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Semantic%20Scholar&labelColor=76B7F7&color=f4d03f&style=flat&label=citations_semantic"></a> for details.
+Some of my papers were published at international NLP conferences. See <a href='https://scholar.google.com/citations?hl=en&user=bN9bPVUAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> or <a href='https://www.semanticscholar.org/author/Jirui-Qi/2112611646'><img src="https://img.shields.io/endpoint?url={{ url2 | url_encode }}&logo=Semantic%20Scholar&labelColor=76B7F7&color=f4d03f&style=flat&label=citations_semantic"></a> for details.
 
 
 # 🔥 News
