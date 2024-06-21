@@ -21,3 +21,16 @@ shieldio_data = {
 }
 with open(f'results/gs_data_shieldsio.json', 'w') as outfile:
     json.dump(shieldio_data, outfile, ensure_ascii=False)
+
+# Semantic Scholar
+from semanticscholar import SemanticScholar
+sch = SemanticScholar()
+author_semantic = sch.get_author(2112611646)
+
+shieldio_data_semantic = {
+  "schemaVersion": 1,
+  "label": "citations_semantic",
+  "message": f"{author_semantic.citationCount}",
+}
+with open(f'results/gs_data_shieldsio_semantic.json', 'w') as outfile:
+    json.dump(shieldio_data_semantic, outfile, ensure_ascii=False)
