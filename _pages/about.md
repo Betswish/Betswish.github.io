@@ -36,7 +36,7 @@ Some of my papers were published at international NLP conferences. See <a href='
 
 
 # 🔥 News
-- 2024.06.21: &nbsp; New preprint paper released! [Model Internals-based Answer Attribution for Trustworthy Retrieval-Augmented Generation](https://arxiv.org/abs/2406.13663)
+- 2024.06.21: &nbsp; New preprint paper released! [Model Internals-based Answer Attribution for Trustworthy Retrieval-Augmented Generation](https://arxiv.org/abs/2406.13663).
 - 2023.12.10: &nbsp; The <a href='https://arxiv.org/abs/2310.10378'>paper</a> was also selected for Outstanding Paper award in the Multilinguality and Linguistic Diversity track at EMNLP 2023!
 - 2023.12.06: &nbsp; We received Best Data Award for our <a href='https://arxiv.org/abs/2310.10378'>EMNLP paper</a> from <a href='https://genbench.org/workshop/'>The 1st GenBench Workshop</a>!
 - 2023.10.06: &nbsp; Paper accepted by EMNLP 2023! <a href='https://arxiv.org/abs/2310.10378'>Cross-Lingual Consistency of Factual Knowledge in Multilingual Language Models</a>
