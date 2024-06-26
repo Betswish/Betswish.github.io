@@ -18,8 +18,9 @@ redirect_from:
   gtag('config', 'G-CV6BK46TMV');
 </script>
 
-{% assign url1 = "https://raw.githubusercontent.com/Betswish/betswish.github.io/google-scholar-stats/gs_data_shieldsio.json"
-{% assign url2 = "https://raw.githubusercontent.com/Betswish/betswish.github.io/google-scholar-stats/gs_data_shieldsio_semantic.json"
+
+{% assign url1 = "https://raw.githubusercontent.com/Betswish/betswish.github.io/google-scholar-stats/gs_data_shieldsio.json"}
+{% assign url2 = "https://raw.githubusercontent.com/Betswish/betswish.github.io/google-scholar-stats/gs_data_shieldsio_semantic.json"}
 
 <span class='anchor' id='about-me'></span>
 
