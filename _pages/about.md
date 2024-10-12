@@ -32,6 +32,7 @@ Some of my papers were published at international NLP conferences. See <a href='
 
 
 # 🔥 News
+- 2024.09.20: &nbsp; Our paper [Model Internals-based Answer Attribution for Trustworthy Retrieval-Augmented Generation](https://arxiv.org/abs/2406.13663) is accepted by EMNLP 2024 Main Conference!
 - 2024.06.21: &nbsp; New preprint paper released! [Model Internals-based Answer Attribution for Trustworthy Retrieval-Augmented Generation](https://arxiv.org/abs/2406.13663).
 - 2023.12.10: &nbsp; The <a href='https://arxiv.org/abs/2310.10378'>paper</a> was also selected for Outstanding Paper award in the Multilinguality and Linguistic Diversity track at EMNLP 2023!
 - 2023.12.06: &nbsp; We received Best Data Award for our <a href='https://arxiv.org/abs/2310.10378'>EMNLP paper</a> from <a href='https://genbench.org/workshop/'>The 1st GenBench Workshop</a>!
@@ -40,7 +41,7 @@ Some of my papers were published at international NLP conferences. See <a href='
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"> Preprint </div><img src='images/MIRAGE_homepage.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"> EMNLP 2024 </div><img src='images/MIRAGE_homepage.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Model Internals-based Answer Attribution for Trustworthy Retrieval-Augmented Generation](https://arxiv.org/abs/2406.13663) <br> **Jirui Qi**\*, Gabriele Sarti\*, Raquel Fernández, Arianna Bisazza
@@ -53,13 +54,13 @@ Ensuring the verifiability of model answers is a fundamental challenge for retri
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"> EMNLP 2023 </div><img src='images/916x820.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Cross-Lingual Consistency of Factual Knowledge in Multilingual Language Models](https://arxiv.org/abs/2310.10378) <br> **Jirui Qi**, Raquel Fernández, Arianna Bisazza
+[Cross-Lingual Consistency of Factual Knowledge in Multilingual Language Models](https://aclanthology.org/2023.emnlp-main.658/) <br> **Jirui Qi**, Raquel Fernández, Arianna Bisazza
 
 Multilingual large-scale Pretrained Language Models (PLMs) have been shown to store considerable amounts of factual knowledge, but large variations are observed across languages. With the ultimate goal of ensuring that users with different language backgrounds obtain consistent feedback from the same model, we study the cross-lingual consistency (CLC) of factual knowledge in various multilingual PLMs. To this end, we propose a Ranking-based Consistency (RankC) metric to evaluate knowledge consistency across languages independently from accuracy. Using this metric, we conduct an in-depth analysis of the determining factors for CLC, both at model level and at language-pair level. Among other results, we find that increasing model size leads to higher factual probing accuracy in most languages, but does not improve cross-lingual consistency. Finally, we conduct a case study on CLC when new factual associations are inserted in the PLMs via model editing. Results on a small sample of facts inserted in English reveal a clear pattern whereby the new piece of knowledge transfers only to languages with which English has a high RankC score.
 
 </div>
 </div>
-
+- [The SIFo Benchmark: Investigating the Sequential Instruction Following Ability of Large Language Models](https://arxiv.org/abs/2406.19999) <br> Xinyi Chen, Baohao Liao, **Jirui Qi**, Panagiotis Eustratiadis, Christof Monz, Arianna Bisazza, Maarten de Rijke <br> **Findings of EMNLP 2024**
 - [Multi-mask label mapping for prompt-based learning](https://ojs.aaai.org/index.php/AAAI/article/view/26579) <br> **Jirui Qi**, Richong Zhang, Jaein Kim, Junfan Chen, Wenyi Qin, Yongyi Mao <br> **AAAI-23**
 - [Parameter-free Automatically Prompting: A Latent Pseudo Label Mapping Model for Prompt-based Learning
 ](https://aclanthology.org/2022.findings-emnlp.291/) <br> **Jirui Qi**, Richong Zhang, Junfan Chen, Jaein Kim, Yongyi Mao <br> **Findings of EMNLP 2022**
