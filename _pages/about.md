@@ -25,6 +25,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 I started my Ph.D. in April 2023, at the Center for Language and Cognition (CLCG), University of Groningen.
+
 My research mainly focuses on the low-resource conversational tasks, (multilingual) retrieval augmented generation, and the cross-lingual consistency of LLMs. 
 
 Some of my papers were published at international NLP conferences. See <a href='https://scholar.google.com/citations?hl=en&user=bN9bPVUAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url1 | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> or <a href='https://www.semanticscholar.org/author/Jirui-Qi/2112611646'><img src="https://img.shields.io/endpoint?url={{ url2 | url_encode }}&logo=Semantic%20Scholar&labelColor=76B7F7&color=f4d03f&style=flat&label=citations_semantic"></a> for details.
