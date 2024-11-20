@@ -40,7 +40,6 @@ See <a href='https://scholar.google.com/citations?hl=en&user=bN9bPVUAAAAJ'><img 
 
 # 🌟 Highlights
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"> EMNLP 2023 Outstanding Award </div> <div class="badge"> GenBench 2023 Best Data Award </div> <img src='images/916x820.png' alt="sym" width="100%"></div></div>
-
 <div class='paper-box-text' markdown="1">
 
 [Cross-Lingual Consistency of Factual Knowledge in Multilingual Language Models](https://aclanthology.org/2023.emnlp-main.658/) <br> **Jirui Qi**, Raquel Fernández, Arianna Bisazza
