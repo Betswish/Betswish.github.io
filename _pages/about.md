@@ -24,7 +24,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I started my Ph.D. in April 2023, at the Center for Language and Cognition (CLCG), University of Groningen.
+I am a second-year Ph.D. candidate at the Center for Language and Cognition (CLCG), University of Groningen.
 
 My research mainly focuses on the low-resource conversational tasks, (multilingual) retrieval augmented generation, and the cross-lingual consistency of LLMs. 
 
@@ -39,19 +39,10 @@ Some of my papers were published at international NLP conferences. See <a href='
 - 2023.10.06: &nbsp; Paper accepted by EMNLP 2023! <a href='https://arxiv.org/abs/2310.10378'>Cross-Lingual Consistency of Factual Knowledge in Multilingual Language Models</a>
 - 2023.04.01: &nbsp; Ph.D. journey started at the University of Groningen, supervised by <a href='https://www.cs.rug.nl/~bisazza/'>Arianna Bisazza</a>  and <a href='https://staff.fnwi.uva.nl/r.fernandezrovira/'>Raquel Fernández</a>.
 
-# 📝 Publications 
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"> EMNLP 2024 </div><img src='images/MIRAGE_homepage.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Model Internals-based Answer Attribution for Trustworthy Retrieval-Augmented Generation](https://arxiv.org/abs/2406.13663) <br> **Jirui Qi**\*, Gabriele Sarti\*, Raquel Fernández, Arianna Bisazza
-
-Ensuring the verifiability of model answers is a fundamental challenge for retrieval-augmented generation (RAG) in the question answering (QA) domain. Recently, self-citation prompting was proposed to make large language models (LLMs) generate citations to supporting documents along with their answers. However, self-citing LLMs often struggle to match the required format, refer to non-existent sources, and fail to faithfully reflect LLMs' context usage throughout the generation. In this work, we present MIRAGE --Model Internals-based RAG Explanations -- a plug-and-play approach using model internals for faithful answer attribution in RAG applications. MIRAGE detects context-sensitive answer tokens and pairs them with retrieved documents contributing to their prediction via saliency methods. We evaluate our proposed approach on a multilingual extractive QA dataset, finding high agreement with human answer attribution. On open-ended QA, MIRAGE achieves citation quality and efficiency comparable to self-citation while also allowing for a finer-grained control of attribution parameters. Our qualitative evaluation highlights the faithfulness of MIRAGE's attributions and underscores the promising application of model internals for RAG answer attribution.
-
-</div>
-</div>
-
+# 🌟 Highlights
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"> EMNLP 2023 Outstanding Award </div><img src='images/916x820.png' alt="sym" width="100%"></div></div>
+  <div class='paper-box'><div class='paper-box-image'><div><div class="badge"> GenBench 2023 Best Data Award </div><img src='images/916x820.png' alt="sym" width="100%"></div></div>
+
 <div class='paper-box-text' markdown="1">
 
 [Cross-Lingual Consistency of Factual Knowledge in Multilingual Language Models](https://aclanthology.org/2023.emnlp-main.658/) <br> **Jirui Qi**, Raquel Fernández, Arianna Bisazza
@@ -60,6 +51,28 @@ Multilingual large-scale Pretrained Language Models (PLMs) have been shown to st
 
 </div>
 </div>
+
+# 📝 Publications 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"> Preprint </div><img src='images/likelihoods_homepage.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Likelihood as a Performance Gauge for Retrieval-Augmented Generation](https://arxiv.org/abs/2411.07773) <br> Tianyu Liu\*, **Jirui Qi\***, Paul He, Arianna Bisazza, Mrinmaya Sachan, Ryan Cotterell
+
+Recent work finds that retrieval-augmented generation with large language models is prone to be influenced by the order of retrieved documents in the context. However, the lack of in-depth analysis limits the use of this phenomenon for prompt engineering in practice. In this study, we posit that likelihoods serve as an effective gauge for language model performance. Through experiments on two question-answering datasets with a variety of state-of-the-art language models, we reveal correlations between answer accuracy and the likelihood of the question at both the corpus level and the instance level. In addition, we find that question likelihood can also indicate the position of the task-relevant information in the context. Based on these findings, we propose two methods that use question likelihood as a gauge for selecting and constructing prompts that lead to better performance. We demonstrate their effectiveness with experiments. In addition, our likelihood-based methods are efficient, as they only need to compute the likelihood of the input, requiring much fewer language model passes than heuristic prompt engineering methods that require generating responses. Our analysis deepens our understanding of how input prompts affect model performance and provides a promising direction for efficient prompt optimization.
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"> EMNLP 2024 </div><img src='images/MIRAGE_homepage.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Model Internals-based Answer Attribution for Trustworthy Retrieval-Augmented Generation](https://arxiv.org/abs/2406.13663) <br> **Jirui Qi\***, Gabriele Sarti\*, Raquel Fernández, Arianna Bisazza
+
+Ensuring the verifiability of model answers is a fundamental challenge for retrieval-augmented generation (RAG) in the question answering (QA) domain. Recently, self-citation prompting was proposed to make large language models (LLMs) generate citations to supporting documents along with their answers. However, self-citing LLMs often struggle to match the required format, refer to non-existent sources, and fail to faithfully reflect LLMs' context usage throughout the generation. In this work, we present MIRAGE --Model Internals-based RAG Explanations -- a plug-and-play approach using model internals for faithful answer attribution in RAG applications. MIRAGE detects context-sensitive answer tokens and pairs them with retrieved documents contributing to their prediction via saliency methods. We evaluate our proposed approach on a multilingual extractive QA dataset, finding high agreement with human answer attribution. On open-ended QA, MIRAGE achieves citation quality and efficiency comparable to self-citation while also allowing for a finer-grained control of attribution parameters. Our qualitative evaluation highlights the faithfulness of MIRAGE's attributions and underscores the promising application of model internals for RAG answer attribution.
+
+</div>
+</div>
+
 - [The SIFo Benchmark: Investigating the Sequential Instruction Following Ability of Large Language Models](https://arxiv.org/abs/2406.19999) <br> Xinyi Chen, Baohao Liao, **Jirui Qi**, Panagiotis Eustratiadis, Christof Monz, Arianna Bisazza, Maarten de Rijke <br> **Findings of EMNLP 2024**
 - [Multi-mask label mapping for prompt-based learning](https://ojs.aaai.org/index.php/AAAI/article/view/26579) <br> **Jirui Qi**, Richong Zhang, Jaein Kim, Junfan Chen, Wenyi Qin, Yongyi Mao <br> **AAAI-23**
 - [Parameter-free Automatically Prompting: A Latent Pseudo Label Mapping Model for Prompt-based Learning
