@@ -87,8 +87,8 @@ Ensuring the verifiability of model answers is a fundamental challenge for retri
 - LIX001M05: Natural Language Processing (Master Course, Spring 2024). Teaching assistant. Instructor: Prof. Arianna Bisazza, University of Groningen.
 
 **Reviewing**
-- ACL ARR 2024 August Reviewers
-- GenBench 2024 Workshop Reviewers
+- ACL ARR 2024 August Reviewer
+- GenBench 2024 Workshop Emergency Reviewer
 
 # 🎮 Demos
 - Interested in having a competition against LMs? Try our [demo](https://huggingface.co/spaces/GroNLP/LM-Explanation-Demo-Soft) here and see if you can beat them!
