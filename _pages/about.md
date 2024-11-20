@@ -62,7 +62,7 @@ Recent work finds that retrieval-augmented generation with large language models
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"> EMNLP 2024 </div><img src='images/MIRAGE_homepage.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"> EMNLP 2024 Main </div><img src='images/MIRAGE_homepage.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Model Internals-based Answer Attribution for Trustworthy Retrieval-Augmented Generation](https://arxiv.org/abs/2406.13663) <br> **Jirui Qi\***, Gabriele Sarti\*, Raquel Fernández, Arianna Bisazza
