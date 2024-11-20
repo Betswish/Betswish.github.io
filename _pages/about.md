@@ -39,13 +39,12 @@ See <a href='https://scholar.google.com/citations?hl=en&user=bN9bPVUAAAAJ'><img 
 - 2023.04.01: &nbsp; Ph.D. journey started at the University of Groningen, supervised by <a href='https://www.cs.rug.nl/~bisazza/'>Arianna Bisazza</a>  and <a href='https://staff.fnwi.uva.nl/r.fernandezrovira/'>Raquel Fernández</a>.
 
 # 🌟 Highlights
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"> EMNLP 2023 Outstanding Award </div> <div class="badge"> GenBench 2023 Best Data Award </div> <img src='images/916x820.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"> EMNLP 2023 Outstanding Award / GenBench 2023 Best Data Award </div> <img src='images/916x820.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Cross-Lingual Consistency of Factual Knowledge in Multilingual Language Models](https://aclanthology.org/2023.emnlp-main.658/) <br> **Jirui Qi**, Raquel Fernández, Arianna Bisazza
 
 Multilingual large-scale Pretrained Language Models (PLMs) have been shown to store considerable amounts of factual knowledge, but large variations are observed across languages. With the ultimate goal of ensuring that users with different language backgrounds obtain consistent feedback from the same model, we study the cross-lingual consistency (CLC) of factual knowledge in various multilingual PLMs. To this end, we propose a Ranking-based Consistency (RankC) metric to evaluate knowledge consistency across languages independently from accuracy. Using this metric, we conduct an in-depth analysis of the determining factors for CLC, both at model level and at language-pair level. Among other results, we find that increasing model size leads to higher factual probing accuracy in most languages, but does not improve cross-lingual consistency. Finally, we conduct a case study on CLC when new factual associations are inserted in the PLMs via model editing. Results on a small sample of facts inserted in English reveal a clear pattern whereby the new piece of knowledge transfers only to languages with which English has a high RankC score.
-
 </div>
 </div>
 
