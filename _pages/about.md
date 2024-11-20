@@ -31,11 +31,11 @@ See <a href='https://scholar.google.com/citations?hl=en&user=bN9bPVUAAAAJ'><img 
 
 
 # 🔥 News
-- 2024.09.20: &nbsp; Our [paper](https://arxiv.org/abs/2406.13663) is accepted by EMNLP 2024 Main Conference! Meanwhile, the collaboration work [SIFo benchmark](https://arxiv.org/abs/2406.19999) for evaluating LLM sequential-instruction following ability is accepted as the Findings of EMNLP 2024!
+- 2024.09.20: &nbsp; Our [paper](https://arxiv.org/abs/2406.13663) is accepted by EMNLP 2024 Main Conference. Meanwhile, the collaboration work [SIFo benchmark](https://arxiv.org/abs/2406.19999) for evaluating LLM sequential-instruction following ability is accepted as the Findings of EMNLP 2024.
 - 2024.06.21: &nbsp; New preprint paper released: [Model Internals-based Answer Attribution for Trustworthy Retrieval-Augmented Generation](https://arxiv.org/abs/2406.13663).
-- 2023.12.10: &nbsp; The <a href='https://arxiv.org/abs/2310.10378'>paper</a> was also selected for Outstanding Paper award in the Multilinguality and Linguistic Diversity track at EMNLP 2023!
-- 2023.12.06: &nbsp; We received Best Data Award for our <a href='https://arxiv.org/abs/2310.10378'>EMNLP paper</a> from <a href='https://genbench.org/workshop/'>The 1st GenBench Workshop</a>!
-- 2023.10.06: &nbsp; Paper accepted by EMNLP 2023! <a href='https://arxiv.org/abs/2310.10378'>Cross-Lingual Consistency of Factual Knowledge in Multilingual Language Models</a>
+- 2023.12.10: &nbsp; The <a href='https://arxiv.org/abs/2310.10378'>paper</a> was also selected for **Outstanding Paper Award** in the Multilinguality and Linguistic Diversity track at EMNLP 2023!
+- 2023.12.06: &nbsp; We received **Best Data Award** for our <a href='https://arxiv.org/abs/2310.10378'>EMNLP paper</a> from <a href='https://genbench.org/workshop/'>The 1st GenBench Workshop</a>!
+- 2023.10.06: &nbsp; Paper accepted by EMNLP 2023. <a href='https://arxiv.org/abs/2310.10378'>Cross-Lingual Consistency of Factual Knowledge in Multilingual Language Models</a>
 - 2023.04.01: &nbsp; Ph.D. journey started at the University of Groningen, supervised by <a href='https://www.cs.rug.nl/~bisazza/'>Arianna Bisazza</a>  and <a href='https://staff.fnwi.uva.nl/r.fernandezrovira/'>Raquel Fernández</a>.
 
 # 🌟 Highlights
