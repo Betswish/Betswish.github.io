@@ -24,7 +24,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-**I am looking for internships in 2025**
+**\*\*I am looking for research internships next year in 2025!\*\***
 
 I am a second-year Ph.D. candidate at the Center for Language and Cognition (CLCG), University of Groningen.
 
