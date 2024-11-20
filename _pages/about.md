@@ -77,14 +77,17 @@ Ensuring the verifiability of model answers is a fundamental challenge for retri
 ](https://aclanthology.org/2022.findings-emnlp.291/) <br> **Jirui Qi**, Richong Zhang, Junfan Chen, Jaein Kim, Yongyi Mao <br> **Findings of EMNLP 2022**
 - [Cross Domain Few-Shot Learning via Meta Adversarial Training](https://arxiv.org/abs/2202.05713) <br> **Jirui Qi**, Richong Zhang, Chune Li, Yongyi Mao <br> arXiv preprint
 
+# 🗣️Talks
+- 2024/09: xxxx (xxxx; instructor: Prof. Malvina Nissim), University of Groningen. Flying over RAG: Retrieval Augmented Generation
+
+# 📖 Teaching / Reviewing
+- ACL ARR 2024 August Reviewers
+- GenBench 2024 Workshop Reviewers
+- LIX030B05: Introduction to Neural Network (Bachelor Course, Fall 2024). Teaching assistant. Instructor: Prof. Arianna Bisazza, University of Groningen. 
+- LIX001M05: Natural Language Processing (Master Course, Spring 2024). Teaching assistant. Instructor: Prof. Arianna Bisazza, University of Groningen. 
+
 # 🎮 Demos
 - Interested in having a competition against LMs? Try our [demo](https://huggingface.co/spaces/GroNLP/LM-Explanation-Demo-Soft) here and see if you can beat them!
-
-# 📖 Educations
-- 2023.04 - Current: Ph.D. Candidate, Center for Language and Cognition, Faculty of Art, University of Groningen
-- 2020.09 - 2023.01: Master, Beihang University
-- 2016.09 - 2020.06: Undergraduate, Beijing Jiaotong University
-- 2013.09 - 2016.06: Senior High, The High School Affiliated to Renmin University of China (RDFZ)
 
 
 <!--
