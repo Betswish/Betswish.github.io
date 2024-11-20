@@ -39,8 +39,7 @@ See <a href='https://scholar.google.com/citations?hl=en&user=bN9bPVUAAAAJ'><img 
 - 2023.04.01: &nbsp; Ph.D. journey started at the University of Groningen, supervised by <a href='https://www.cs.rug.nl/~bisazza/'>Arianna Bisazza</a>  and <a href='https://staff.fnwi.uva.nl/r.fernandezrovira/'>Raquel Fernández</a>.
 
 # 🌟 Highlights
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"> EMNLP 2023 Outstanding Award </div><img src='images/916x820.png' alt="sym" width="100%"></div></div>
-  <div class='paper-box'><div class='paper-box-image'><div><div class="badge"> GenBench 2023 Best Data Award </div><img src='images/916x820.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"> EMNLP 2023 Outstanding Award </div> <div class="badge"> GenBench 2023 Best Data Award </div> <img src='images/916x820.png' alt="sym" width="100%"></div></div>
 
 <div class='paper-box-text' markdown="1">
 
