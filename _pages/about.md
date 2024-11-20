@@ -83,10 +83,13 @@ Ensuring the verifiability of model answers is a fundamental challenge for retri
 - 2023/10: CLCG Reading Group (Seminar). Cross-Lingual Consistency of Factual Knowledge in Multilingual Language Models
 
 # 📖 Teaching / Reviewing
+**Teaching**
+- LIX030B05: Introduction to Neural Network (Bachelor Course, Fall 2024). Teaching assistant. Instructor: Prof. Arianna Bisazza, University of Groningen. 
+- LIX001M05: Natural Language Processing (Master Course, Spring 2024). Teaching assistant. Instructor: Prof. Arianna Bisazza, University of Groningen.
+
+**Reviewing**
 - ACL ARR 2024 August Reviewers
 - GenBench 2024 Workshop Reviewers
-- LIX030B05: Introduction to Neural Network (Bachelor Course, Fall 2024). Teaching assistant. Instructor: Prof. Arianna Bisazza, University of Groningen. 
-- LIX001M05: Natural Language Processing (Master Course, Spring 2024). Teaching assistant. Instructor: Prof. Arianna Bisazza, University of Groningen. 
 
 # 🎮 Demos
 - Interested in having a competition against LMs? Try our [demo](https://huggingface.co/spaces/GroNLP/LM-Explanation-Demo-Soft) here and see if you can beat them!
