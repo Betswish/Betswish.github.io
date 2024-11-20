@@ -24,6 +24,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+**I am looking for internships in 2025**
+
 I am a second-year Ph.D. candidate at the Center for Language and Cognition (CLCG), University of Groningen.
 
 My research focuses on low-resource conversational tasks. Specifically, I am interested in retrieval augmented generation (RAG), cross-lingual/multilingual LMs, and efficient automatic prompt engineering.
