@@ -12,9 +12,6 @@ main:
   - title: "Publications"
     url: "/#-publications"
 
-  # - title: "Honors and Awards"
-  #   url: "/#-honors-and-awards"
-
   - title: "Talks"
     url: "/#-talks"
     
@@ -24,7 +21,8 @@ main:
   - title: "Demos"
     url: "/#-demos"
     
-
+  # - title: "Honors and Awards"
+  #   url: "/#-honors-and-awards"
 
   # - title: "Invited Talks"
   #   url: "/#-invited-talks"
