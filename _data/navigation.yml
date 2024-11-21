@@ -14,8 +14,10 @@ main:
 
   # - title: "Talks"
   #   url: "/#-talks"
-  - title: "Invited Talks"
-    url: "/#-invited-talks"
+  - title: "Talks"
+    url: "/#-talks"
+  # - title: "Invited Talks"
+  #   url: "/#-invited-talks"
   
   - title: "Teaching and Reviewing"
     url: "/#-teaching-and-reviewing"
