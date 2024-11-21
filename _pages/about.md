@@ -77,7 +77,7 @@ Ensuring the verifiability of model answers is a fundamental challenge for retri
 ](https://aclanthology.org/2022.findings-emnlp.291/) <br> **Jirui Qi**, Richong Zhang, Junfan Chen, Jaein Kim, Yongyi Mao <br> **Findings of EMNLP 2022**
 - [Cross Domain Few-Shot Learning via Meta Adversarial Training](https://arxiv.org/abs/2202.05713) <br> **Jirui Qi**, Richong Zhang, Chune Li, Yongyi Mao <br> arXiv preprint
 
-# Talks
+# 🗣️ Talks
 - 2024/11: CLCG Reading Group (Seminar). Model Internals-based Answer Attribution for Trustworthy Retrieval-Augmented Generation
 - 2024/09: LIX026M05 Shared Task Information Science (Instructor: Prof. Malvina Nissim), University of Groningen. Flying over RAG: Retrieval Augmented Generation
 - 2023/10: CLCG Reading Group (Seminar). Cross-Lingual Consistency of Factual Knowledge in Multilingual Language Models
