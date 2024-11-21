@@ -12,9 +12,11 @@ main:
   - title: "Publications"
     url: "/#-publications"
 
-  - title: "Talks"
-    url: "/#-talks"
-    
+  # - title: "Talks"
+  #   url: "/#-talks"
+  - title: "Invited Talks"
+    url: "/#-invited-talks"
+  
   - title: "Teaching and Reviewing"
     url: "/#-teaching-and-reviewing"
     
@@ -24,8 +26,6 @@ main:
   # - title: "Honors and Awards"
   #   url: "/#-honors-and-awards"
 
-  # - title: "Invited Talks"
-  #   url: "/#-invited-talks"
 
   # - title: "Internships"
   #   url: "/#-internships"
