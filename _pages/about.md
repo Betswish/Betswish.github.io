@@ -79,7 +79,7 @@ Ensuring the verifiability of model answers is a fundamental challenge for retri
 
 # 💬 Talks
 - 2024/11: CLCG Reading Group (Seminar). Model Internals-based Answer Attribution for Trustworthy Retrieval-Augmented Generation
-- 2024/09: LIX026M05 Shared Task Information Science (Instructor: Prof. Malvina Nissim), University of Groningen. Flying over RAG: An Introduction of Retrieval Augmented Generation
+- 2024/09: LIX026M05 Shared Task Information Science (Instructor: Prof. Malvina Nissim), University of Groningen. [Flying over RAG: An Introduction of Retrieval Augmented Generation](https://drive.google.com/file/d/1TK8odhd9wuubKCvqs4OXLdQZZAVq_7AC/view?usp=sharing)
 - 2023/10: CLCG Reading Group (Seminar). Cross-Lingual Consistency of Factual Knowledge in Multilingual Language Models
 
 # 📖 Teaching and Reviewing
