@@ -51,7 +51,7 @@ Multilingual large-scale Pretrained Language Models (PLMs) have been shown to st
 </div>
 
 # 📝 Publications
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"> Preprint </div><img src='images/likelihoods_homepage.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"> NAACL 2025 Main </div><img src='images/likelihoods_homepage.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Likelihood as a Performance Gauge for Retrieval-Augmented Generation](https://arxiv.org/abs/2411.07773) <br> Tianyu Liu\*, **Jirui Qi\***, Paul He, Arianna Bisazza, Mrinmaya Sachan, Ryan Cotterell
