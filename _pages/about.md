@@ -33,7 +33,8 @@ See <a href='https://scholar.google.com/citations?hl=en&user=bN9bPVUAAAAJ'><img 
 
 
 # 🔥 News
-- 2024.09.20: &nbsp; Our [paper](https://arxiv.org/abs/2406.13663) is accepted by EMNLP 2024 Main Conference. Meanwhile, the collaboration work [SIFo benchmark](https://arxiv.org/abs/2406.19999) for evaluating LLM sequential-instruction following ability is accepted as the Findings of EMNLP 2024.
+- 2025.01.22: &nbsp; Our [paper](https://arxiv.org/abs/2411.07773) on **efficient prompt engineering** has been accepted by NAACL 2025 Main Conference! In this paper, [Likelihood as a Performance Gauge for Retrieval-Augmented Generation](https://arxiv.org/abs/2411.07773), we reveal a positive correlation between P\(question\) with LLM performance.
+- 2024.09.20: &nbsp; Our [paper](https://aclanthology.org/2024.emnlp-main.347/) is accepted by EMNLP 2024 Main Conference. Meanwhile, the collaboration work [SIFo benchmark](https://aclanthology.org/2024.findings-emnlp.92/) for evaluating LLM sequential-instruction following ability is accepted as the Findings of EMNLP 2024.
 - 2024.06.21: &nbsp; New preprint paper released: [Model Internals-based Answer Attribution for Trustworthy Retrieval-Augmented Generation](https://arxiv.org/abs/2406.13663).
 - 2023.12.10: &nbsp; The <a href='https://arxiv.org/abs/2310.10378'>paper</a> was also selected for **Outstanding Paper Award** in the Multilinguality and Linguistic Diversity track at EMNLP 2023!
 - 2023.12.06: &nbsp; We received **Best Data Award** for our <a href='https://arxiv.org/abs/2310.10378'>EMNLP paper</a> from <a href='https://genbench.org/workshop/'>The 1st GenBench Workshop</a>!
