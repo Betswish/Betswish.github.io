@@ -85,14 +85,17 @@ Ensuring the verifiability of model answers is a fundamental challenge for retri
 
 # 📖 Teaching and Reviewing
 **Teaching**
+- LIX006M05: Advanced Topics in Natural Language Processing (Master Course, Spring 2025). Teaching assistant. Instructor: Prof. Arianna Bisazza, University of Groningen.
 - LIX030B05: Introduction to Neural Network (Bachelor Course, Fall 2024). Teaching assistant. Instructor: Prof. Arianna Bisazza, University of Groningen. 
 - LIX001M05: Natural Language Processing (Master Course, Spring 2024). Teaching assistant. Instructor: Prof. Arianna Bisazza, University of Groningen.
 
 **Reviewing**
-- ACL ARR 2024 August Reviewer
+- ACL ARR 2025 February Emergency Reviewer
+- ACL ARR 2024 August (Great) Reviewer
 - GenBench 2024 Workshop Emergency Reviewer
 
 # 🎮 Demos
+- Try the demo([ModelScope Ver.](https://www.modelscope.cn/studios/JiruiQi/MIRAGE), [Huggingface Ver.](https://huggingface.co/spaces/gsarti/mirage)) of our MIRAGE paper (EMNLP 2024 Main) for attributing LLM responses to contextual passages in the RAG pipeline.
 - Interested in having a competition against LMs? Try our [demo](https://huggingface.co/spaces/GroNLP/LM-Explanation-Demo-Soft) here and see if you can beat them!
 
 
