@@ -29,7 +29,7 @@ redirect_from:
 I am a second-year Ph.D. candidate at the Center for Language and Cognition (CLCG), University of Groningen.
 
 My research focuses on low-resource conversational tasks. Specifically, I am interested in retrieval augmented generation (RAG), cross-lingual/multilingual LMs, and efficient automatic prompt engineering.
-See <a href='https://scholar.google.com/citations?hl=en&user=bN9bPVUAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url1 | url_encode }}&logo=google-scholar&logoColor=4285F4&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> or <a href='https://www.semanticscholar.org/author/Jirui-Qi/2112611646'><img src="https://img.shields.io/endpoint?url={{ url2 | url_encode }}&logo=semantic-scholar&logoColor=2F72B8&labelColor=F4D03F&color=76B7F7&style=flat&label=citations_semantic"></a> for full lists of my publications.
+See <a href='https://scholar.google.com/citations?hl=en&user=bN9bPVUAAAAJ'><img src="https://raw.githubusercontent.com/Betswish/Betswish.github.io/refs/heads/main/images/googlescholar.svg"></a> or <a href='https://www.semanticscholar.org/author/Jirui-Qi/2112611646'><img src="https://raw.githubusercontent.com/Betswish/Betswish.github.io/refs/heads/main/images/semanticscholar.svg"></a> for full lists of my publications.
 
 
 # 🔥 News
