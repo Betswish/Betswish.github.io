@@ -29,8 +29,7 @@ redirect_from:
 I am a second-year Ph.D. candidate at the Center for Language and Cognition (CLCG), University of Groningen.
 
 My research focuses on low-resource conversational tasks. Specifically, I am interested in retrieval augmented generation (RAG), cross-lingual/multilingual LMs, and efficient automatic prompt engineering.
-See <a href='https://scholar.google.com/citations?hl=en&user=bN9bPVUAAAAJ'>Google Scholar</a> or <a href='https://www.semanticscholar.org/author/Jirui-Qi/2112611646'>Semantic Scholar</a> for full lists of my publications.
-
+See <a href='https://scholar.google.com/citations?hl=en&user=bN9bPVUAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url1 | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> or <a href='https://www.semanticscholar.org/author/Jirui-Qi/2112611646'><img src="https://img.shields.io/endpoint?url={{ url2 | url_encode }}&logo=Semantic%20Scholar&labelColor=76B7F7&color=f4d03f&style=flat&label=citations_semantic"></a> for full lists of my publications.
 
 # 🔥 News
 - 2025.01.22: &nbsp; Our [paper](https://arxiv.org/abs/2411.07773) on **efficient prompt engineering** has been accepted by NAACL 2025 Main Conference! In this paper, [Likelihood as a Performance Gauge for Retrieval-Augmented Generation](https://arxiv.org/abs/2411.07773), we reveal a positive correlation between P\(question\) with LLM performance.
@@ -101,6 +100,8 @@ Ensuring the verifiability of model answers is a fundamental challenge for retri
 
 <!--
 See <a href='https://scholar.google.com/citations?hl=en&user=bN9bPVUAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url1 | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> or <a href='https://www.semanticscholar.org/author/Jirui-Qi/2112611646'><img src="https://img.shields.io/endpoint?url={{ url2 | url_encode }}&logo=Semantic%20Scholar&labelColor=76B7F7&color=f4d03f&style=flat&label=citations_semantic"></a> for full lists of my publications.
+
+See <a href='https://scholar.google.com/citations?hl=en&user=bN9bPVUAAAAJ'>Google Scholar</a> or <a href='https://www.semanticscholar.org/author/Jirui-Qi/2112611646'>Semantic Scholar</a> for full lists of my publications.
 
 # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
