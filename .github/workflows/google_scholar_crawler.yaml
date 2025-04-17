@@ -20,7 +20,8 @@ jobs:
         echo "=== Start to install packages ==="
         pip3 install -r requirements.txt
         echo "=== Packages installed ==="
-        python3 main.py
+        python main.py
+        echo "=== main.py finished ==="
         cd ./results
         git init
         git config --local user.name "${GITHUB_ACTOR}"
