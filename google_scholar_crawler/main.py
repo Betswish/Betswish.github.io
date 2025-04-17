@@ -7,8 +7,9 @@ import os
 
 print('Packages loaded')
 author: dict = scholarly.search_author_id(os.environ['GOOGLE_SCHOLAR_ID'])
-scholarly.fill(author, sections=['basics', 'indices', 'counts', 'publications'])
 print('Data scratched')
+scholarly.fill(author, sections=['basics', 'indices', 'counts', 'publications'])
+print('Data filled')
 name = author['name']
 author['updated'] = str(datetime.now())
 author['publications'] = {v['author_pub_id']:v for v in author['publications']}
