@@ -6,7 +6,9 @@ from datetime import datetime
 import os
 
 print('Packages loaded')
-author: dict = scholarly.search_author_id(os.environ['GOOGLE_SCHOLAR_ID'])
+author_id=os.environ['GOOGLE_SCHOLAR_ID']
+print('Author id loaded')
+author: dict = scholarly.search_author_id(author_id)
 print('Data scratched')
 scholarly.fill(author, sections=['basics', 'indices', 'counts', 'publications'])
 print('Data filled')
