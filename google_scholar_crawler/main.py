@@ -1,17 +1,15 @@
-print('Start main.py')
 from scholarly import scholarly
 import jsonpickle
 import json
 from datetime import datetime
 import os
 
-print('Packages loaded')
+# Google Scholar
+# API
 author_id=os.environ['GOOGLE_SCHOLAR_ID']
-print('Author id loaded')
 author: dict = scholarly.search_author_id(author_id)
 print('Data scratched')
 scholarly.fill(author, sections=['basics', 'indices', 'counts', 'publications'])
-print('Data filled')
 name = author['name']
 author['updated'] = str(datetime.now())
 author['publications'] = {v['author_pub_id']:v for v in author['publications']}
