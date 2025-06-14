@@ -57,9 +57,9 @@ Multilingual large-scale Pretrained Language Models (PLMs) have been shown to st
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"> Under Review </div><img src='images/xreasoning_homepage.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[When Models Reason in Your Language: Controlling Thinking Trace Language Comes at the Cost of Accuracy](https://arxiv.org/abs/2505.22888) <br> **Jirui Qi†**, Shan Chen†, Zidi Xiong, Raquel Fernández, Danielle S. Bitterman‡, Arianna Bisazza‡
+[When Models Reason in Your Language: Controlling Thinking Trace Language Comes at the Cost of Accuracy](https://arxiv.org/abs/2505.22888) <br> **Jirui Qi<sup>†</sup>**, Shan Chen<sup>†</sup>, Zidi Xiong, Raquel Fernández, Danielle S. Bitterman<sup>‡</sup>, Arianna Bisazza<sup>‡</sup>
 
-*†Co-First Authors, ‡Co-Senior Authors*
+*<sup>†</sup>Co-First Authors, <sup>‡</sup>Co-Senior Authors*
 
 Recent Large Reasoning Models (LRMs) with thinking traces have shown strong performance on English reasoning tasks. However, their ability to think in other languages is less studied. This capability is as important as answer accuracy for real-world applications because users may find the reasoning trace useful for oversight only when it is expressed in their own language. We comprehensively evaluate two leading families of LRMs on our XReasoning benchmark and find that even the most advanced models often revert to English or produce fragmented reasoning in other languages, revealing a substantial gap in multilingual reasoning. Prompt-based interventions that force models to reason in the user's language improve readability and oversight but reduce answer accuracy, exposing an important trade-off. We further show that targeted post-training on just 100 examples mitigates this mismatch, though some accuracy loss remains. Our results highlight the limited multilingual reasoning capabilities of current LRMs and outline directions for future work.
 
@@ -80,9 +80,9 @@ Retrieval-augmented generation (RAG) with large language models (LLMs) has demon
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"> NAACL 2025 Main </div><img src='images/likelihoods_homepage.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Likelihood as a Performance Gauge for Retrieval-Augmented Generation](https://arxiv.org/abs/2411.07773) <br> Tianyu Liu\*, **Jirui Qi\***, Paul He, Arianna Bisazza, Mrinmaya Sachan, Ryan Cotterell
+[Likelihood as a Performance Gauge for Retrieval-Augmented Generation](https://arxiv.org/abs/2411.07773) <br> Tianyu Liu<sup>*</sup>, **Jirui Qi<sup>*</sup>**, Paul He, Arianna Bisazza, Mrinmaya Sachan, Ryan Cotterell
 
-**Co-First Authors*
+*<sup>*</sup>Co-First Authors*
 
 Recent work finds that retrieval-augmented generation with large language models is prone to be influenced by the order of retrieved documents in the context. However, the lack of in-depth analysis limits the use of this phenomenon for prompt engineering in practice. In this study, we posit that likelihoods serve as an effective gauge for language model performance. Through experiments on two question-answering datasets with a variety of state-of-the-art language models, we reveal correlations between answer accuracy and the likelihood of the question at both the corpus level and the instance level. In addition, we find that question likelihood can also indicate the position of the task-relevant information in the context. Based on these findings, we propose two methods that use question likelihood as a gauge for selecting and constructing prompts that lead to better performance. We demonstrate their effectiveness with experiments. In addition, our likelihood-based methods are efficient, as they only need to compute the likelihood of the input, requiring much fewer language model passes than heuristic prompt engineering methods that require generating responses. Our analysis deepens our understanding of how input prompts affect model performance and provides a promising direction for efficient prompt optimization.
 
@@ -92,7 +92,9 @@ Recent work finds that retrieval-augmented generation with large language models
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"> EMNLP 2024 Main </div><img src='images/MIRAGE_homepage.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Model Internals-based Answer Attribution for Trustworthy Retrieval-Augmented Generation](https://arxiv.org/abs/2406.13663) <br> **Jirui Qi\***, Gabriele Sarti\*, Raquel Fernández, Arianna Bisazza
+[Model Internals-based Answer Attribution for Trustworthy Retrieval-Augmented Generation](https://arxiv.org/abs/2406.13663) <br> **Jirui Qi<sup>*</sup>**, Gabriele Sarti<sup>*</sup>, Raquel Fernández, Arianna Bisazza
+
+*<sup>*</sup>Co-First Authors*
 
 Ensuring the verifiability of model answers is a fundamental challenge for retrieval-augmented generation (RAG) in the question answering (QA) domain. Recently, self-citation prompting was proposed to make large language models (LLMs) generate citations to supporting documents along with their answers. However, self-citing LLMs often struggle to match the required format, refer to non-existent sources, and fail to faithfully reflect LLMs' context usage throughout the generation. In this work, we present MIRAGE --Model Internals-based RAG Explanations -- a plug-and-play approach using model internals for faithful answer attribution in RAG applications. MIRAGE detects context-sensitive answer tokens and pairs them with retrieved documents contributing to their prediction via saliency methods. We evaluate our proposed approach on a multilingual extractive QA dataset, finding high agreement with human answer attribution. On open-ended QA, MIRAGE achieves citation quality and efficiency comparable to self-citation while also allowing for a finer-grained control of attribution parameters. Our qualitative evaluation highlights the faithfulness of MIRAGE's attributions and underscores the promising application of model internals for RAG answer attribution.
 
