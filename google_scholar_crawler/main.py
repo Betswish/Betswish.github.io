@@ -33,18 +33,18 @@ print(shieldio_data)
 import requests
 from bs4 import BeautifulSoup
 
-## Version 1: via Semantic Scholar API
-from semanticscholar import SemanticScholar
-sch = SemanticScholar()
-author_semantic = sch.get_author(2112611646)
-citation_num = author_semantic.citationCount
+# # Version 1: via Semantic Scholar API
+# from semanticscholar import SemanticScholar
+# sch = SemanticScholar()
+# author_semantic = sch.get_author(2112611646)
+# citation_num = author_semantic.citationCount
 
-## Version 2: via HTML request
-# url="https://www.semanticscholar.org/author/Jirui-Qi/2112611646"
-# headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36'}
-# html=requests.get(url,headers=headers)
-# val = BeautifulSoup(html.text, 'html.parser')
-# citation_num = val.find_all("span", class_="author-detail-card__stats-row__value")[-2].text
+# Version 2: via HTML request
+url="https://www.semanticscholar.org/author/Jirui-Qi/2112611646"
+headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.119 Safari/537.36'}
+html=requests.get(url,headers=headers)
+val = BeautifulSoup(html.text, 'html.parser')
+citation_num = val.find_all("span", class_="author-detail-card__stats-row__value")[-2].text
 
 # Format
 shieldio_data_semantic = {
