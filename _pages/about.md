@@ -32,7 +32,7 @@ My research focuses on low-resource conversational tasks. Specifically, I am int
 See <a href='https://scholar.google.com/citations?hl=en&user=bN9bPVUAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url1 | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> or <a href='https://www.semanticscholar.org/author/Jirui-Qi/2112611646'><img src="https://img.shields.io/endpoint?url={{ url2 | url_encode }}&logo=Semantic%20Scholar&labelColor=76B7F7&color=f4d03f&style=flat&label=citations_semantic"></a> for full lists of my publications.
 
 # 🔥 News
-- 2025.05.28: &nbsp; New preprint paper released: [When Models Reason in Your Language: Controlling Thinking Trace Language Comes at the Cost of Accuracy](https://arxiv.org/abs/2505.22888).
+- 2025.05.28: &nbsp; New preprint paper released: [When Models Reason in Your Language: Controlling Thinking Language Comes at the Cost of Accuracy](https://arxiv.org/abs/2505.22888).
 - 2025.04.21: &nbsp; New preprint paper released: [On the Consistency of Multilingual Context Utilization in Retrieval-Augmented Generation](https://arxiv.org/abs/2504.00597).
 - 2025.01.22: &nbsp; Our [paper](https://arxiv.org/abs/2411.07773) on **efficient prompt engineering** has been accepted by NAACL 2025 Main Conference! In this paper, [Likelihood as a Performance Gauge for Retrieval-Augmented Generation](https://arxiv.org/abs/2411.07773), we reveal a positive correlation between P\(question\) with LLM performance.
 - 2024.09.20: &nbsp; Our [paper](https://aclanthology.org/2024.emnlp-main.347/) is accepted by EMNLP 2024 Main Conference. Meanwhile, the collaboration work [SIFo benchmark](https://aclanthology.org/2024.findings-emnlp.92/) for evaluating LLM sequential-instruction following ability is accepted as the Findings of EMNLP 2024.
@@ -57,7 +57,7 @@ Multilingual large-scale Pretrained Language Models (PLMs) have been shown to st
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"> Under Review </div><img src='images/xreasoning_homepage.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[When Models Reason in Your Language: Controlling Thinking Trace Language Comes at the Cost of Accuracy](https://arxiv.org/abs/2505.22888) <br> **Jirui Qi<sup>†</sup>**, Shan Chen<sup>†</sup>, Zidi Xiong, Raquel Fernández, Danielle S. Bitterman<sup>‡</sup>, Arianna Bisazza<sup>‡</sup>
+[When Models Reason in Your Language: Controlling Thinking Language Comes at the Cost of Accuracy](https://arxiv.org/abs/2505.22888) <br> **Jirui Qi<sup>†</sup>**, Shan Chen<sup>†</sup>, Zidi Xiong, Raquel Fernández, Danielle S. Bitterman<sup>‡</sup>, Arianna Bisazza<sup>‡</sup>
 
 *<sup>†</sup>Co-First Authors, <sup>‡</sup>Co-Senior Authors*
 
