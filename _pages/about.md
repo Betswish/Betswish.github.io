@@ -32,6 +32,9 @@ My research focuses on low-resource conversational tasks. Specifically, I am int
 See <a href='https://scholar.google.com/citations?hl=en&user=bN9bPVUAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url1 | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> or <a href='https://www.semanticscholar.org/author/Jirui-Qi/2112611646'><img src="https://img.shields.io/endpoint?url={{ url2 | url_encode }}&logo=Semantic%20Scholar&labelColor=76B7F7&color=f4d03f&style=flat&label=citations_semantic"></a> for full lists of my publications.
 
 # 🔥 News
+- 2025.10.09: Excited to share that our paper [When Models Reason in Your Language: Controlling Thinking Language Comes at the Cost of Accuracy](https://arxiv.org/abs/2505.22888) is featured in the [State of AI Report 2025](https://www.stateof.ai/)!
+- 2025.10.01: Our paper [On the Consistency of Multilingual Context Utilization in Retrieval-Augmented Generation](https://arxiv.org/abs/2504.00597) has been accepted by the [MRL workshop](https://sigtyp.github.io/ws2025-mrl.html) at EMNLP 2025!
+- 2025.08.20: Our paper [When Models Reason in Your Language: Controlling Thinking Language Comes at the Cost of Accuracy](https://arxiv.org/abs/2505.22888) is accepted as the Findings of EMNLP 2025!
 - 2025.05.28: &nbsp; New preprint paper released: [When Models Reason in Your Language: Controlling Thinking Language Comes at the Cost of Accuracy](https://arxiv.org/abs/2505.22888).
 - 2025.04.21: &nbsp; New preprint paper released: [On the Consistency of Multilingual Context Utilization in Retrieval-Augmented Generation](https://arxiv.org/abs/2504.00597).
 - 2025.01.22: &nbsp; Our [paper](https://arxiv.org/abs/2411.07773) on **efficient prompt engineering** has been accepted by NAACL 2025 Main Conference! In this paper, [Likelihood as a Performance Gauge for Retrieval-Augmented Generation](https://arxiv.org/abs/2411.07773), we reveal a positive correlation between P\(question\) with LLM performance.
@@ -66,7 +69,7 @@ Recent Large Reasoning Models (LRMs) with thinking traces have shown strong perf
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"> Under Review </div><img src='images/likelihoods_homepage.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"> Under Review </div><img src='images/RAGConsis_homepage.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [On the Consistency of Multilingual Context Utilization
