@@ -55,7 +55,7 @@ Multilingual large-scale Pretrained Language Models (PLMs) have been shown to st
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"> EMNLP 2025 Findings / Featured in the [State of AI Report 2025](https://www.stateof.ai/) </div><img src='images/xreasoning_homepage.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"> EMNLP 2025 Findings / Featured in State of AI Report 2025 </div><img src='images/xreasoning_homepage.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [When Models Reason in Your Language: Controlling Thinking Language Comes at the Cost of Accuracy](https://arxiv.org/abs/2505.22888) <br> **Jirui Qi<sup>†</sup>**, Shan Chen<sup>†</sup>, Zidi Xiong, Raquel Fernández, Danielle S. Bitterman<sup>‡</sup>, Arianna Bisazza<sup>‡</sup>
