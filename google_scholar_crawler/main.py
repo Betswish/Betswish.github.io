@@ -47,7 +47,7 @@ from bs4 import BeautifulSoup
 # citation_num = val.find_all("span", class_="author-detail-card__stats-row__value")[-2].text
 
 # Version 3: Manually add Semantic Scholar citation number
-citation_num = 112
+citation_num = 123
 
 
 # Format
