@@ -24,6 +24,9 @@ main:
     
   - title: "Demos"
     url: "/#-demos"
+
+  - title: "CV"
+    url: "https://drive.google.com/file/d/1YzI5CNlVPjYs1FIqrFZA-9svtPf0rnMy/view?usp=drivesdk"
     
   # - title: "Honors and Awards"
   #   url: "/#-honors-and-awards"
