@@ -27,6 +27,7 @@ main:
 
   - title: "CV"
     url: "/assets/pdf/Resume_Jirui_Qi.pdf"
+    target: "_self"
     # url: "https://betswish.github.io/assets/pdf/Resume_Jirui_Qi.pdf"
     
   # - title: "Honors and Awards"
