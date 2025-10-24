@@ -26,7 +26,8 @@ main:
     url: "/#-demos"
 
   - title: "CV"
-    url: "https://betswish.github.io/assets/pdf/Resume_Jirui_Qi.pdf"
+    url: "/assets/pdf/Resume_Jirui_Qi.pdf"
+    # url: "https://betswish.github.io/assets/pdf/Resume_Jirui_Qi.pdf"
     
   # - title: "Honors and Awards"
   #   url: "/#-honors-and-awards"
