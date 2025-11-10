@@ -33,11 +33,11 @@ print(shieldio_data)
 import requests
 from bs4 import BeautifulSoup
 
-# # Version 1: via Semantic Scholar API
-# from semanticscholar import SemanticScholar
-# sch = SemanticScholar()
-# author_semantic = sch.get_author(2112611646)
-# citation_num = author_semantic.citationCount
+# Version 1: via Semantic Scholar API
+from semanticscholar import SemanticScholar
+sch = SemanticScholar()
+author_semantic = sch.get_author(2112611646)
+citation_num = author_semantic.citationCount
 
 # # Version 2: via HTML request
 # url="https://www.semanticscholar.org/author/Jirui-Qi/2112611646"
@@ -47,7 +47,7 @@ from bs4 import BeautifulSoup
 # citation_num = val.find_all("span", class_="author-detail-card__stats-row__value")[-2].text
 
 # Version 3: Manually add Semantic Scholar citation number
-citation_num = 123
+# citation_num = 139
 
 
 # Format
