@@ -26,12 +26,13 @@ redirect_from:
 
 **\*\*I am looking for research internships next year in 2026!\*\***
 
-I am a third-year Ph.D. candidate at the [InCLow research team](https://inclow-lm.github.io/) at the Center for Language and Cognition (CLCG), University of Groningen.
+I am a final year Ph.D. candidate at the [InCLow research team](https://inclow-lm.github.io/) at the Center for Language and Cognition (CLCG), University of Groningen.
 
 My research focuses on low-resource conversational tasks. Specifically, I am interested in retrieval augmented generation (RAG), reinforcement learning, cross-lingual/multilingual LMs, and efficient prompt engineering.
 See <a href='https://scholar.google.com/citations?hl=en&user=bN9bPVUAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url1 | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> or <a href='https://www.semanticscholar.org/author/Jirui-Qi/2112611646'><img src="https://img.shields.io/endpoint?url={{ url2 | url_encode }}&logo=Semantic%20Scholar&labelColor=76B7F7&color=f4d03f&style=flat&label=citations_semantic"></a> for full lists of my publications.
 
 # 🔥 News
+- 2025.11.04: Check our blog on fixing language obedience issues in large reasoning models via SFT+GRPO! [Budget Alignment: Making Models Reason in the User’s Language](https://huggingface.co/blog/shanchen/mcot-rl)
 - 2025.10.09: Excited to share that our paper [When Models Reason in Your Language: Controlling Thinking Language Comes at the Cost of Accuracy](https://arxiv.org/abs/2505.22888) is featured in the [State of AI Report 2025](https://www.stateof.ai/)!
 - 2025.10.01: Our paper [On the Consistency of Multilingual Context Utilization in Retrieval-Augmented Generation](https://arxiv.org/abs/2504.00597) has been accepted by the [MRL workshop](https://sigtyp.github.io/ws2025-mrl.html) at EMNLP 2025!
 - 2025.08.20: Our paper [When Models Reason in Your Language: Controlling Thinking Language Comes at the Cost of Accuracy](https://arxiv.org/abs/2505.22888) is accepted as the Findings of EMNLP 2025!
@@ -55,6 +56,47 @@ Multilingual large-scale Pretrained Language Models (PLMs) have been shown to st
 </div>
 </div>
 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"> Best Paper Award @ MRL Workshop 2025 </div><img src='images/RAGConsis_homepage.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[On the Consistency of Multilingual Context Utilization
+in Retrieval-Augmented Generation](https://arxiv.org/abs/2504.00597) <br> **Jirui Qi**, Raquel Fernández, Arianna Bisazza
+
+Retrieval-augmented generation (RAG) with large language models (LLMs) has demonstrated strong performance in multilingual question-answering (QA) tasks by leveraging relevant passages retrieved from corpora. In multilingual RAG (mRAG), the retrieved passages can be written in languages other than that of the query entered by the user, making it challenging for LLMs to effectively utilize the provided information. Recent research suggests that retrieving passages from multilingual corpora can improve RAG performance, particularly for low-resource languages. However, the extent to which LLMs can leverage different kinds of multilingual contexts to generate accurate answers, *independently from retrieval quality*, remains understudied. In this paper, we conduct an extensive assessment of LLMs' ability to (i) make consistent use of a relevant passage regardless of its language, (ii) respond in the expected language, and (iii) focus on the relevant passage even when multiple `distracting' passages in different languages are provided in the context. Our experiments with four LLMs across three QA datasets covering a total of 48 languages reveal a surprising ability of LLMs to extract the relevant information from out-language passages, but a much weaker ability to formulate a full answer in the correct language. Our analysis, based on both accuracy and feature attribution techniques, further shows that distracting passages negatively impact answer quality regardless of their language. However, distractors in the query language exert a slightly stronger influence. Taken together, our findings deepen the understanding of how LLMs utilize context in mRAG systems, providing directions for future improvements.
+
+</div>
+</div>
+
+# 📝 Publications
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"> Under Review at ICML </div><img src='images/xreasoning_homepage.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Optimizing Language Models for Crosslingual Knowledge Consistency](https://openreview.net/forum?id=nupbCYlmEE) <br> Tianyu Liu<sup>*</sup>, **Jirui Qi<sup>*</sup>**, Mrinmaya Sachan, Ryan Cotterell, Raquel Fernández, Arianna Bisazza
+
+*<sup>*</sup>Co-First Authors*
+
+Large language models are known to often exhibit inconsistent knowledge. This is particularly problematic in multilingual scenarios, where models are likely to be asked similar questions in different languages, and inconsistent responses can undermine their reliability. In this work, we show that this issue can be mitigated using reinforcement learning with a structured reward function, which leads to an optimal policy with consistent crosslingual responses. We introduce Direct Consistency Optimization (DCO), a DPO-inspired method that requires no explicit reward model and is derived directly from the LLM itself. Comprehensive experiments show that DCO significantly improves crosslingual consistency across diverse LLMs and outperforms existing methods when training with samples of multiple languages, while complementing DPO when gold labels are available. Extra experiments demonstrate the effectiveness of DCO in bilingual settings, significant out-of-domain generalizability, and controllable alignment via direction hyperparameters. Taken together, these results establish DCO as a robust and efficient solution for improving knowledge consistency across languages in multilingual LLMs. All code, training scripts, and evaluation benchmarks are released at https://anonymous.
+
+
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"> Huggingface Blog </div><img src='images/xreasoning_homepage.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Budget Alignment: Making Models Reason in the User’s Language](https://huggingface.co/blog/shanchen/mcot-rl) <br> Shan Chen<sup>*</sup>, Jirui Qi<sup>*</sup>, Zidi Xiong, Timothy Miller, Arianna Bisazza, Raquel Fernández, Danielle Bitterman
+
+*<sup>*</sup>Co-First Authors*
+
+Large language models often answer in the requested language but reason in English/Chinese internally. This creates issues with instruction-following, human oversight, and multilingual evaluation trustworthiness. Our two-step approach achieves strong language consistency without sacrificing accuracy: Small SFT (~817 multilingual reasoning chains) → Reprogram the model's "inner monologue" Math-focused GRPO → Recover and boost accuracy while preserving language consistency. Key Results: Language consistency: 99-100% for FR/ES, 85-95% for JA (vs. ~20-40% baseline). Accuracy: Pareto improvement on 9/12 language-dataset pairs. Efficiency: Only 817 SFT examples + math-only GRPO
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"> EMNLP 2025 Findings / Featured in State of AI Report 2025 </div><img src='images/xreasoning_homepage.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -67,18 +109,6 @@ Recent Large Reasoning Models (LRMs) with thinking traces have shown strong perf
 </div>
 </div>
 
-# 📝 Publications
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"> MRL Workshop 2025 </div><img src='images/RAGConsis_homepage.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[On the Consistency of Multilingual Context Utilization
-in Retrieval-Augmented Generation](https://arxiv.org/abs/2504.00597) <br> **Jirui Qi**, Raquel Fernández, Arianna Bisazza
-
-Retrieval-augmented generation (RAG) with large language models (LLMs) has demonstrated strong performance in multilingual question-answering (QA) tasks by leveraging relevant passages retrieved from corpora. In multilingual RAG (mRAG), the retrieved passages can be written in languages other than that of the query entered by the user, making it challenging for LLMs to effectively utilize the provided information. Recent research suggests that retrieving passages from multilingual corpora can improve RAG performance, particularly for low-resource languages. However, the extent to which LLMs can leverage different kinds of multilingual contexts to generate accurate answers, *independently from retrieval quality*, remains understudied. In this paper, we conduct an extensive assessment of LLMs' ability to (i) make consistent use of a relevant passage regardless of its language, (ii) respond in the expected language, and (iii) focus on the relevant passage even when multiple `distracting' passages in different languages are provided in the context. Our experiments with four LLMs across three QA datasets covering a total of 48 languages reveal a surprising ability of LLMs to extract the relevant information from out-language passages, but a much weaker ability to formulate a full answer in the correct language. Our analysis, based on both accuracy and feature attribution techniques, further shows that distracting passages negatively impact answer quality regardless of their language. However, distractors in the query language exert a slightly stronger influence. Taken together, our findings deepen the understanding of how LLMs utilize context in mRAG systems, providing directions for future improvements.
-
-</div>
-</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"> NAACL 2025 Main </div><img src='images/likelihoods_homepage.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
