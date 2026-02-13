@@ -85,7 +85,7 @@ Large language models are known to often exhibit inconsistent knowledge. This is
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"> Huggingface Blog </div><img src='images/budget_alignment_homepage.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"> Under Review @ ICLR 2026 Blog Track</div><img src='images/budget_alignment_homepage.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Budget Alignment: Making Models Reason in the User’s Language](https://huggingface.co/blog/shanchen/mcot-rl) <br> Shan Chen<sup>*</sup>, Jirui Qi<sup>*</sup>, Zidi Xiong, Timothy Miller, Arianna Bisazza, Raquel Fernández, Danielle Bitterman
