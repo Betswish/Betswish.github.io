@@ -71,7 +71,7 @@ Retrieval-augmented generation (RAG) with large language models (LLMs) has demon
 # 📝 Publications
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"> Under Review at ICML </div><img src='images/xreasoning_homepage.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"> Under Review at ICML </div><img src='images/DCO_homepage.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Optimizing Language Models for Crosslingual Knowledge Consistency](https://openreview.net/forum?id=nupbCYlmEE) <br> Tianyu Liu<sup>*</sup>, **Jirui Qi<sup>*</sup>**, Mrinmaya Sachan, Ryan Cotterell, Raquel Fernández, Arianna Bisazza
@@ -85,7 +85,7 @@ Large language models are known to often exhibit inconsistent knowledge. This is
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"> Huggingface Blog </div><img src='images/xreasoning_homepage.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"> Huggingface Blog </div><img src='images/budget_alignment_homepage.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Budget Alignment: Making Models Reason in the User’s Language](https://huggingface.co/blog/shanchen/mcot-rl) <br> Shan Chen<sup>*</sup>, Jirui Qi<sup>*</sup>, Zidi Xiong, Timothy Miller, Arianna Bisazza, Raquel Fernández, Danielle Bitterman
