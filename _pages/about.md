@@ -24,7 +24,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-**\*\*I am looking for research internships next year in 2026!\*\***
+**\*\*I am seeking a research position in industry or academia for 2027!\*\***
 
 I am a final year Ph.D. candidate at the [InCLow research team](https://inclow-lm.github.io/) at the Center for Language and Cognition (CLCG), University of Groningen.
 
