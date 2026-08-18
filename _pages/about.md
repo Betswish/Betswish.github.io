@@ -29,9 +29,10 @@ redirect_from:
 I am a final year Ph.D. candidate at the [InCLow research team](https://inclow-lm.github.io/) at the Center for Language and Cognition (CLCG), University of Groningen.
 
 My research focuses on low-resource conversational tasks. Specifically, I am interested in retrieval augmented generation (RAG), reinforcement learning, cross-lingual/multilingual LMs, and efficient prompt engineering.
-See <a href='https://scholar.google.com/citations?hl=en&user=bN9bPVUAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url1 | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> or <a href='https://www.semanticscholar.org/author/Jirui-Qi/2112611646'><img src="https://img.shields.io/endpoint?url={{ url2 | url_encode }}&logo=Semantic%20Scholar&labelColor=76B7F7&color=f4d03f&style=flat&label=citations_semantic"></a> for full lists of my publications.
+See <a href='https://scholar.google.com/citations?hl=en&user=bN9bPVUAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url1 | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> for full lists of my publications.
 
 # 🔥 News
+- 2026.08.17: I started an Applied Scientist Intern at Amazon University Talent Acquisition project!
 - 2026.04.30: Our paper [Optimizing Language Models for Crosslingual Knowledge Consistency](https://arxiv.org/abs/2603.04678) is accepted by ICML 2026!
 - 2026.02.21: [Budget Alignment: Making Models Reason in the User’s Language](https://iclr-blogposts.github.io/2026/blog/2026/budget-alignment/) has been accepted by the [ICLR 2026 Blogpost Track](https://iclr-blogposts.github.io/2026/about/)!
 - 2025.11.04: Check our blog on fixing language obedience issues in large reasoning models via SFT+GRPO! [Budget Alignment: Making Models Reason in the User’s Language](https://huggingface.co/blog/shanchen/mcot-rl)
